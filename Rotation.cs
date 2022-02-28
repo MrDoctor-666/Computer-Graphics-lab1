@@ -71,10 +71,10 @@ namespace CG_lab1_try2
                 {
                     answer[i] += one[j] * two[j, i];
                 }
-                //Console.WriteLine(answer[i]);
+                Console.WriteLine(answer[i]);
             }
 
-            //Console.WriteLine();
+            Console.WriteLine();
 
             return answer;
         }
